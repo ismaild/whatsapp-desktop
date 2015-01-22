@@ -1,0 +1,15 @@
+{
+  "name": "WhatsApp",
+  "main": "index.html",
+  "version": "0.1",
+  "window": {
+    "show": true,
+    "toolbar": false,
+    "frame": false,
+    "position": "center",
+    "width": 900,
+    "height": 740,
+    "min_width": 220,
+    "min_height": 220
+  }
+}
