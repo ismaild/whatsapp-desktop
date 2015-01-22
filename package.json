@@ -1,8 +1,15 @@
 {
   "name": "WhatsApp",
-  "main": "index.html",
-  "version": "0.1",
+  "description": "WhatsApp Desktop Client - Unofficial",
+  "main": "./index.html",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ismaild/whatsapp-desktop.git"
+  },
   "window": {
+    "title": "WhatsApp - Desktop",
+    "icon": "icons/whatsapp.iconset/256x256.png",
     "show": true,
     "toolbar": false,
     "frame": false,
@@ -11,5 +18,9 @@
     "height": 740,
     "min_width": 220,
     "min_height": 220
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-node-webkit-builder": "^1.0.0"
   }
 }
