@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp",
+  "main": "views/index.html",
+  "version": "0.0.1",
+  "single-instance": true,
+  "window": {
+    "title": "WhatsApp",
+    "width": 650,
+    "height": 650,
+    "min_width": 650,
+    "min_height": 650,
+    "toolbar": false
+  }
+}

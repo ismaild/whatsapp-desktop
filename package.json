@@ -1,26 +1,35 @@
 {
-  "name": "WhatsApp",
-  "description": "WhatsApp Desktop Client - Unofficial",
-  "main": "./index.html",
-  "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ismaild/whatsapp-desktop.git"
-  },
-  "window": {
-    "title": "WhatsApp - Desktop",
-    "icon": "icons/whatsapp.iconset/256x256.png",
-    "show": true,
-    "toolbar": false,
-    "frame": false,
-    "position": "center",
-    "width": 900,
-    "height": 740,
-    "min_width": 220,
-    "min_height": 220
-  },
+  "name": "whatsapp-desktop",
+  "version": "0.0.2",
+  "description": "",
+  "keywords": [],
+  
+    "homepage": "https://github.com/ismaild/whatsapp-desktop",
+    "bugs": "https://github.com/ismaild/whatsapp-desktop/issues",
+    "author": {
+      "name": "Ismail Dhorat",
+      "email": "",
+      "url": "https://github.com/ismaild"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/ismaild/whatsapp-desktop.git"
+    },
+  
+  "dependencies": {},
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-node-webkit-builder": "^1.0.0"
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-rename": "0.0.3",
+    "grunt-contrib-compress": "^0.10.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^0.4.0",
+    "concat-files": "~0.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
   }
 }
