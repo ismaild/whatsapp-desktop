@@ -1,14 +1,15 @@
 {
   "name": "whatsapp",
   "main": "views/index.html",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "single-instance": true,
   "window": {
     "title": "WhatsApp",
-    "width": 650,
-    "height": 650,
-    "min_width": 650,
-    "min_height": 650,
-    "toolbar": false
+    "width": 900,
+    "height": 740,
+    "min_width": 220,
+    "min_height": 220,
+    "toolbar": false,
+    "position": "center"
   }
 }

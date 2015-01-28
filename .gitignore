@@ -4,4 +4,4 @@ tmp/
 dist/
 build/
 cache/
-resources/
+resources/node-webkit/

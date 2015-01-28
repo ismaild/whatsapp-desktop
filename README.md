@@ -6,6 +6,6 @@ This is **NOT** an offical application. Its a simple node-webkit app which loads
 
 Currently only built for Mac OSx, feel free to build for Win/Linux.
 
-To build run: ```grunt build``` 
+To build run: ```grunt dist-mac``` 
 
 Grab Mac binary: https://github.com/ismaild/whatsapp-desktop/releases
